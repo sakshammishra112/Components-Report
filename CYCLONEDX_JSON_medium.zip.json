@@ -1,0 +1,127 @@
+{
+    "bomFormat": "CycloneDX",
+    "$schema": "https://cyclonedx.org/schema/bom-1.4.schema.json",
+    "specVersion": "1.4",
+    "version": 1,
+    "serialNumber": "urn:uuid:dfd2b378-1f69-11f1-8de0-00155db1ee06",
+    "metadata": {
+        "timestamp": "2026-03-14T05:51:41+00:00",
+        "tools": [
+            {
+                "vendor": "FOSSology",
+                "name": "FOSSology",
+                "version": ""
+            }
+        ],
+        "component": {
+            "type": "library",
+            "name": "medium.zip",
+            "mime-type": "application/zip",
+            "bom-ref": "217",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "E889E2D26E1DBA6AA049D307FA4F04416C5E5D87"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "D1B9D741153C40ABF2C8819A5372BDDE"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "297332A6491C40E591D7DCD19EE3525241FFF418D45650984D43EF5B07ED1080"
+                }
+            ]
+        }
+    },
+    "components": [
+        {
+            "type": "file",
+            "name": "medium.zip/OpenSSL.txt",
+            "mime-type": "text/plain",
+            "bom-ref": "217-261455",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "6A800FF6DDE876EA45FC89CC838EE970B1BE808A"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "54697950B2CD5C4B97C3BCE5DF3E1DBD"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "E40B5409522940F9F4CD50D440B88138B2A465468A929CF942C95DB6A3CA279E"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "OpenSSL",
+                        "url": "http://www.openssl.org/source/license.html"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "medium.zip/Nvidia.txt",
+            "mime-type": "text/plain",
+            "bom-ref": "217-261457",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "B02A118862A382593DB979B970D3BB1A2BD5DDE4"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "64BDC22192DF3187C7266FA097F44EC1"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "DB8C289047DC4038927BB59ED326FE780E7EF0DA294F5A82257B381E50CC2CC5"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause",
+                        "url": "https://opensource.org/licenses/BSD-3-Clause"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "medium.zip/MPL.txt",
+            "mime-type": "text/plain",
+            "bom-ref": "217-261456",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "94CF31CDCF647A0DC767BB29F20F2EE6272D884D"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "6625751F412116618511C58DC69E787A"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "93DDFA4551BCEAD5CDCA3D0FE07C6A3DAA4DA852E289E4D4FE009CCED797068C"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MPL-1.0",
+                        "url": "http://www.mozilla.org/MPL/MPL-1.0.html"
+                    }
+                }
+            ]
+        }
+    ]
+}

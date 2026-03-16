@@ -1,0 +1,139 @@
+{
+    "bomFormat": "CycloneDX",
+    "$schema": "https://cyclonedx.org/schema/bom-1.4.schema.json",
+    "specVersion": "1.4",
+    "version": 1,
+    "serialNumber": "urn:uuid:30a7ee46-1eb4-11f1-8de0-00155db1ee39",
+    "metadata": {
+        "timestamp": "2026-03-13T08:11:08+00:00",
+        "tools": [
+            {
+                "vendor": "FOSSology",
+                "name": "FOSSology",
+                "version": ""
+            }
+        ],
+        "component": {
+            "type": "library",
+            "name": "slow.zip",
+            "mime-type": "application/zip",
+            "bom-ref": "216",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "F0B57A8ECCF44AF3297867E49920AFEB47B2F471"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "AC9FA5251B7F7445FE1FA688FFAFD36B"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "B14C933A3E7BF55518009BF7DA950A69E25EDDBFF9C1285FA110AE28FE418A64"
+                }
+            ]
+        }
+    },
+    "components": [
+        {
+            "type": "file",
+            "name": "slow.zip/cisco.txt",
+            "mime-type": "text/plain",
+            "bom-ref": "216-261450",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "AA99CB21DCD07622E396D88E4B2B3DAA14F0B32E"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "C725F2E69D36B2408250A916240FFD4E"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "CD209E3422878D4920E29842CB9EE4683C9151C648324B45905ED6FC42DC5C7D"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause",
+                        "url": "https://opensource.org/licenses/BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause-HP",
+                        "url": "https://github.com/zdohnal/hplip/blob/master/COPYING#L939"
+                    }
+                }
+            ],
+            "copyright": "Copyright (c) 2001 Cisco Systems, Inc. All rights reserved.\nCopyright (c) 2001 Cisco Systems, Inc.\r\nAll rights reserved."
+        },
+        {
+            "type": "file",
+            "name": "slow.zip/BitTorent-1.0.txt",
+            "mime-type": "text/plain",
+            "bom-ref": "216-261451",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "5131D7B351FF632CA51E81983E9FB47160084618"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "E834E0A5E48C460F4C913380207F8337"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "2040A0293F213D7950C1DFC6764E2A54CCF21D889A0E656D69526FBEB95D4B90"
+                }
+            ],
+            "licenses": [
+                {
+                    "expression": "LicenseRef-fossology-BSD-style"
+                }
+            ],
+            "copyright": "Copyright (c) 2003 BitTorrent, Inc.\nCopyright (c) 2003 BitTorrent, Inc."
+        },
+        {
+            "type": "file",
+            "name": "slow.zip/ADSL.txt",
+            "mime-type": "text/plain",
+            "bom-ref": "216-261449",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "D7610643533A2EC9F0575E2CB4FB0DE16CA1C7EA"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "AEBB371FE0E7CC9719A1C0D4D858350F"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "130C251F0230648E59C8623DC1BD51B72CE971B49F10A90A37ED3DF878F3A6A9"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-3-Clause",
+                        "url": "https://opensource.org/licenses/BSD-3-Clause"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "BSD-3-Clause-HP",
+                        "url": "https://github.com/zdohnal/hplip/blob/master/COPYING#L939"
+                    }
+                }
+            ],
+            "copyright": "Copyright (c) 1998-2000 Nortel Networks Limited All rights reserved.\nCopyright (c) 1998-2000 Nortel Networks Limited\r\nAll rights reserved."
+        }
+    ]
+}
