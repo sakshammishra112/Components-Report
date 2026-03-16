@@ -1,0 +1,295 @@
+[
+  {
+    "type": "NamespaceMap",
+    "namespace": "http://LAPTOP-VMPA6FVD.localdomain/repo/SPDX3JSON_slow.zip.json",
+    "prefix": "URI"
+  },
+  {
+    "@id": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "type": "CreationInfo",
+    "specVersion": "3.0.0",
+    "created": "2026-03-13T08:11:29Z",
+    "createdBy": [
+      "https://spdx.org/rdf/3.0.0/terms/Core/Person#SPDXRef-Actor-fossy-y"
+    ],
+    "createdUsing": [
+      "https://spdx.org/rdf/3.0.0/terms/Core/Tool#SPDXRef-Actor-fossology-"
+    ],
+    "comment": "<text>This document was created using license information and a generator from Fossology.</text>"
+  },
+  {
+    "type": "SpdxDocument",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Core/SpdxDocument#SpdxRef-DOCUMENT",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "name": "/srv/fossology/repository/report",
+    "profileConformance": [
+      "core",
+      "software",
+      "simpleLicensing",
+      "expandedLicensing"
+    ],
+    "element": [
+      "https://spdx.org/rdf/3.0.0/terms/Core/Tool#SPDXRef-Actor-fossology-",
+      "https://spdx.org/rdf/3.0.0/terms/Core/Person#SPDXRef-Actor-fossy-y",
+      "https://spdx.org/rdf/3.0.0/terms/Software/Package#SPDXRef-upload216",
+      "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450",
+      "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261451",
+      "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261449"
+    ],
+    "rootElement": [
+      "https://spdx.org/rdf/3.0.0/terms/Software/Package#SPDXRef-upload216"
+    ],
+    "dataLicense": {
+      "type": "simplelicensing_AnyLicenseInfo",
+      "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+      "description": "CC0-1.0"
+    }
+  },
+  {
+    "type": "Tool",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Core/Tool#SPDXRef-Actor-fossology-",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "name": "fossology-"
+  },
+  {
+    "type": "Person",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Core/Person#SPDXRef-Actor-fossy-y",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "name": "fossy",
+    "externalIdentifier": [
+      {
+        "type": "ExternalIdentifier",
+        "externalIdentifierType": "email",
+        "identifier": "y"
+      }
+    ]
+  },
+  {
+    "type": "expandedlicensing_CustomLicense",
+    "spdxId": "http://LAPTOP-VMPA6FVD.localdomain/repo/SPDX3JSON_slow.zip.json#LicenseRef-fossology-BSD-style",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "name": "BSD-style",
+    "simplelicensing_licenseText": "<text>According to BSD license, add some modifications</text>"
+  },
+  {
+    "type": "software_Package",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/Package#SPDXRef-upload216",
+    "creationInfo":"https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "name": "slow.zip",
+    "comment": "<text> licenseInfoInFile determined by Scanners: - nomos (''.85abbf) - monk (''.85abbf) - scancode (''.85abbf) </text>",
+    "software_downloadLocation": "NOASSERTION",
+    "software_copyrightText": "NOASSERTION",
+    "verifiedUsing": [
+      {
+        "type": "Hash",
+        "algorithm": "sha1",
+        "hashValue": "f0b57a8eccf44af3297867e49920afeb47b2f471"
+      },
+      {
+        "type": "Hash",
+        "algorithm": "sha256",
+        "hashValue": "b14c933a3e7bf55518009bf7da950a69e25eddbff9c1285fa110ae28fe418a64"
+      },
+      {
+        "type": "Hash",
+        "algorithm": "md5",
+        "hashValue": "ac9fa5251b7f7445fe1fa688ffafd36b"
+      }
+    ]
+  },
+  {
+    "type": "PackageVerificationCode",
+    "algorithm": "sha1",
+    "hashValue": "eff2bd7dcb421325602f9534df8d97e517043b57"
+  },
+  {
+    "type": "Annotation",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/Package#SPDXRef-upload216#NoAssertionLicense",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "annotationType": "other",
+    "subject": "https://spdx.org/rdf/3.0.0/terms/Software/Package#SPDXRef-upload216",
+    "statement": "SPDX 2.X LicenseInfoFromFiles"
+  },
+  {
+    "type": "Relationship",
+    "spdxId": "http://LAPTOP-VMPA6FVD.localdomain/repo/SPDX3JSON_slow.zip.json#SPDXRef-Relationship-0",
+    "from": "https://spdx.org/rdf/3.0.0/terms/Core/SpdxDocument#SpdxRef-DOCUMENT",
+    "to": [
+        "https://spdx.org/rdf/3.0.0/terms/Software/Package#SPDXRef-upload216"
+    ],
+    "relationshipType": "describes",
+    "creationInfo":"https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1"
+  },
+  {
+    "type": "software_File",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450",
+    "creationInfo":"https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "name": "slow.zip/cisco.txt",
+    "software_copyrightText": "<text> Copyright (c) 2001 Cisco Systems, Inc. All rights reserved.Copyright (c) 2001 Cisco Systems, Inc.All rights reserved. </text>",
+    "verifiedUsing": [
+      {
+        "type": "Hash",
+        "algorithm": "sha1",
+        "hashValue": "aa99cb21dcd07622e396d88e4b2b3daa14f0b32e"
+      },
+      {
+        "type": "Hash",
+        "algorithm": "sha256",
+        "hashValue": "cd209e3422878d4920e29842cb9ee4683c9151c648324b45905ed6fc42dc5c7d"
+      },
+      {
+        "type": "Hash",
+        "algorithm": "md5",
+        "hashValue": "c725f2e69d36b2408250a916240ffd4e"
+      }
+    ]
+  },
+  { 
+    "type": "expandedlicensing_ConjunctiveLicenseSet",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "expandedlicensing_member": [
+      {
+        "type": "expandedlicensing_ListedLicense",
+        "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+        "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450#BSD-3-Clause",
+        "expandedlicensing_seeAlso": ["https://opensource.org/licenses/BSD-3-Clause"],        "simplelicensing_licenseText": "<text> Copyright (c) <year> <owner>. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. </text>",
+        "name": "BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License"
+      },
+
+
+      {
+        "type": "expandedlicensing_ListedLicense",
+        "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+        "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450#BSD-3-Clause-HP",
+        "expandedlicensing_seeAlso": ["https://github.com/zdohnal/hplip/blob/master/COPYING#L939"],        "simplelicensing_licenseText": "<text> Redistribution and use in source and binary forms, with or withoutmodification, are permitted provided that the following conditionsare met:1. Redistributions of source code must retain the above copyright   notice, this list of conditions and the following disclaimer.2. Redistributions in binary form must reproduce the above copyright   notice, this list of conditions and the following disclaimer in the   documentation and/or other materials provided with the distribution.3. Neither the name of the HP nor the names of its   contributors may be used to endorse or promote products derived   from this software without specific prior written permission.THIS SOFTWARE IS PROVIDED BY THE AUTHOR 'AS IS' AND ANY EXPRESS ORIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIESOF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUTNOT LIMITED TO, PATENT INFRINGEMENT; PROCUREMENT OF SUBSTITUTE GOODS ORSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISINGIN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THEPOSSIBILITY OF SUCH DAMAGE. </text>",
+        "name": "Hewlett-Packard BSD variant license"
+      }
+
+    ]
+  },  {
+    "type": "Annotation",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450#BSD-3-Clause",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "annotationType": "other",
+    "subject": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450",
+    "statement": "SPDX 2.X LicenseInfoInFiles"
+  },
+  {
+    "type": "Annotation",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450#BSD-3-Clause-HP",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "annotationType": "other",
+    "subject": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450",
+    "statement": "SPDX 2.X LicenseInfoInFiles"
+  },
+{
+    "type": "software_File",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261451",
+    "creationInfo":"https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "name": "slow.zip/BitTorent-1.0.txt",
+    "software_copyrightText": "<text> Copyright (c) 2003 BitTorrent, Inc.Copyright (c) 2003 BitTorrent, Inc. </text>",
+    "verifiedUsing": [
+      {
+        "type": "Hash",
+        "algorithm": "sha1",
+        "hashValue": "5131d7b351ff632ca51e81983e9fb47160084618"
+      },
+      {
+        "type": "Hash",
+        "algorithm": "sha256",
+        "hashValue": "2040a0293f213d7950c1dfc6764e2a54ccf21d889a0e656d69526fbeb95d4b90"
+      },
+      {
+        "type": "Hash",
+        "algorithm": "md5",
+        "hashValue": "e834e0a5e48c460f4c913380207f8337"
+      }
+    ]
+  },
+  {
+    "type": "simplelicensing_AnyLicenseInfo",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261451#LicenseRef-fossology-BSD-style"
+  },
+  {
+    "type": "Annotation",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261451#LicenseRef-fossology-BSD-style",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "annotationType": "other",
+    "subject": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261451",
+    "statement": "SPDX 2.X LicenseInfoInFiles"
+  },
+{
+    "type": "software_File",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261449",
+    "creationInfo":"https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "name": "slow.zip/ADSL.txt",
+    "software_copyrightText": "<text> Copyright (c) 1998-2000 Nortel Networks Limited All rights reserved.Copyright (c) 1998-2000 Nortel Networks LimitedAll rights reserved. </text>",
+    "verifiedUsing": [
+      {
+        "type": "Hash",
+        "algorithm": "sha1",
+        "hashValue": "d7610643533a2ec9f0575e2cb4fb0de16ca1c7ea"
+      },
+      {
+        "type": "Hash",
+        "algorithm": "sha256",
+        "hashValue": "130c251f0230648e59c8623dc1bd51b72ce971b49f10a90a37ed3df878f3a6a9"
+      },
+      {
+        "type": "Hash",
+        "algorithm": "md5",
+        "hashValue": "aebb371fe0e7cc9719a1c0d4d858350f"
+      }
+    ]
+  },
+  { 
+    "type": "expandedlicensing_ConjunctiveLicenseSet",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261449",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "expandedlicensing_member": [
+      {
+        "type": "simplelicensing_AnyLicenseInfo",
+        "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+        "spdxId": "http://LAPTOP-VMPA6FVD.localdomain/repo/SPDX3JSON_slow.zip.json#BSD-3-Clause",
+        "name": "BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License"
+      },
+
+      {
+        "type": "simplelicensing_AnyLicenseInfo",
+        "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+        "spdxId": "http://LAPTOP-VMPA6FVD.localdomain/repo/SPDX3JSON_slow.zip.json#BSD-3-Clause-HP",
+        "name": "Hewlett-Packard BSD variant license"
+      }
+    ]
+  },  {
+    "type": "Annotation",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261449#BSD-3-Clause",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "annotationType": "other",
+    "subject": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261449",
+    "statement": "SPDX 2.X LicenseInfoInFiles"
+  },
+  {
+    "type": "Annotation",
+    "spdxId": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261449#BSD-3-Clause-HP",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1",
+    "annotationType": "other",
+    "subject": "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261449",
+    "statement": "SPDX 2.X LicenseInfoInFiles"
+  },
+
+  {
+    "type": "Relationship",
+    "spdxId": "http://LAPTOP-VMPA6FVD.localdomain/repo/SPDX3JSON_slow.zip.json:SPDXRef-Relationship-3",
+    "from": "https://spdx.org/rdf/3.0.0/terms/Software/Package#SPDXRef-upload216",
+    "to": [
+      "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261450",
+      "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261451",
+      "https://spdx.org/rdf/3.0.0/terms/Software/File#SPDXRef-item261449"
+    ],
+    "relationshipType": "hasConcludedLicense",
+    "creationInfo": "https://spdx.org/rdf/3.0.0/terms/Core/creationInfo#creationInfo1"
+  }
+]

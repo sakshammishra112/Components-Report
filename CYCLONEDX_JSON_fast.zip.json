@@ -1,0 +1,220 @@
+{
+    "bomFormat": "CycloneDX",
+    "$schema": "https://cyclonedx.org/schema/bom-1.4.schema.json",
+    "specVersion": "1.4",
+    "version": 1,
+    "serialNumber": "urn:uuid:98ff3bfe-1bf6-11f1-8de0-00155dc3a8b0",
+    "metadata": {
+        "timestamp": "2026-03-09T20:28:56+00:00",
+        "tools": [
+            {
+                "vendor": "FOSSology",
+                "name": "FOSSology",
+                "version": ""
+            }
+        ],
+        "component": {
+            "type": "library",
+            "name": "fast.zip",
+            "mime-type": "application/zip",
+            "bom-ref": "213",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "AD3E936C2A255E316FA2621DAD919E435F6A04AF"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "A133A06EE3681136BFFCBD42A6743B74"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "430BC708D1DE5A26FF90312946D49E766DADB618C82681E05A9442335B90DDF8"
+                }
+            ]
+        }
+    },
+    "components": [
+        {
+            "type": "file",
+            "name": "fast.zip/lgpl/lgpl.c",
+            "mime-type": "text/plain",
+            "bom-ref": "213-258459",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "AA2182EAB43A2902F48ED865B5A9BB4CF11228B9"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "7DC3C777FE9A514EDB9705A6523CE1E2"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "0C884214AB4A0C460C0BC073F342B89CBFB6E2BEB9D367F71ED6FF743C2F9A25"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "LGPL-2.1-only",
+                        "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "fast.zip/gpl/gpl.c",
+            "mime-type": "text/plain",
+            "bom-ref": "213-258455",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "E5B663FD91AC3C138E26985DA634F2ADFAAD9A5C"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "1F53A039272A0CF3688DDBDCD6E3E68C"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "1C0B54A3635B3394C5ACA7EC83BDDE448E64F35685BC7DCE6F224840B4FBAD2D"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GPL-2.0-only",
+                        "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "fast.zip/dual/dual.c",
+            "mime-type": "text/plain",
+            "bom-ref": "213-258457",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "889DDD6B10C6173B01E667B0CB1091929F568CD5"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "494BB86E3B174FCAB4FD7DC02AF27757"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "568D8A3119D5A76781CC645998C1ECB5CA8FED05AC31E21E7A24C284B7E79B02"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "GPL-2.0-only",
+                        "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                    }
+                },
+                {
+                    "license": {
+                        "id": "MIT",
+                        "url": "https://opensource.org/licenses/MIT"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "fast.zip/bsd/bsd.c",
+            "mime-type": "text/plain",
+            "bom-ref": "213-258461",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "E1F65172CC2E9CBBE7BE2C4B353A180DD0FE1335"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "7E9808C41ABF683F7D29D2CA81574181"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "9DB8D29767190DA1B575E176A7D9276DBB083F71CEF5628AAA08153416B25E18"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "BSD-1-Clause",
+                        "url": "https://svnweb.freebsd.org/base/head/include/ifaddrs.h?revision=326823"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "fast.zip/apache/apache.c",
+            "mime-type": "text/plain",
+            "bom-ref": "213-258453",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "82CFDA835764851A39F4AD84C16FBAE3AB8F1616"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "1FA026ED60CDD964F716031A8700693A"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "ADB4C91538B7F4DAD7D4D41BA7D7F1B90B76D6E3CBEB0B973DB34F98316A5369"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "file",
+            "name": "fast.zip/mit/mit.c",
+            "mime-type": "text/plain",
+            "bom-ref": "213-258451",
+            "scope": "required",
+            "hashes": [
+                {
+                    "alg": "SHA-1",
+                    "content": "44F4BAC61B62CCC2B82C397FA88C75781E764378"
+                },
+                {
+                    "alg": "MD5",
+                    "content": "50E14B1A0CC842E2D6EB780093598E71"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "D8B141F167E85DA772054AB4F4D3CD9B6777179F085FC457A86B587ADAF4E902"
+                }
+            ],
+            "licenses": [
+                {
+                    "license": {
+                        "id": "MIT",
+                        "url": "https://opensource.org/licenses/MIT"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,303 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:0ae9e55f-d8f7-4a7e-b065-77f0d4b02a64",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-03-13T08:15:22Z",
+    "tools": [
+      {
+        "vendor": "FOSSology",
+        "name": "FOSSology",
+        "version": ""
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "aggregated-report-6b45fedcc94e",
+      "version": "0.1.0",
+      "description": "Aggregated from 2 source BOMs: CYCLONEDX_JSON_slow.zip.json, CYCLONEDX_JSON_fast.zip.json"
+    }
+  },
+  "components": [
+    {
+      "type": "file",
+      "name": "slow.zip/cisco.txt",
+      "mime-type": "text/plain",
+      "bom-ref": "216-261450",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "AA99CB21DCD07622E396D88E4B2B3DAA14F0B32E"
+        },
+        {
+          "alg": "MD5",
+          "content": "C725F2E69D36B2408250A916240FFD4E"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "CD209E3422878D4920E29842CB9EE4683C9151C648324B45905ED6FC42DC5C7D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause-HP",
+            "url": "https://github.com/zdohnal/hplip/blob/master/COPYING#L939"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 2001 Cisco Systems, Inc. All rights reserved.\nCopyright (c) 2001 Cisco Systems, Inc.\r\nAll rights reserved."
+    },
+    {
+      "type": "file",
+      "name": "slow.zip/BitTorent-1.0.txt",
+      "mime-type": "text/plain",
+      "bom-ref": "216-261451",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "5131D7B351FF632CA51E81983E9FB47160084618"
+        },
+        {
+          "alg": "MD5",
+          "content": "E834E0A5E48C460F4C913380207F8337"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "2040A0293F213D7950C1DFC6764E2A54CCF21D889A0E656D69526FBEB95D4B90"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-fossology-BSD-style"
+        }
+      ],
+      "copyright": "Copyright (c) 2003 BitTorrent, Inc.\nCopyright (c) 2003 BitTorrent, Inc."
+    },
+    {
+      "type": "file",
+      "name": "slow.zip/ADSL.txt",
+      "mime-type": "text/plain",
+      "bom-ref": "216-261449",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "D7610643533A2EC9F0575E2CB4FB0DE16CA1C7EA"
+        },
+        {
+          "alg": "MD5",
+          "content": "AEBB371FE0E7CC9719A1C0D4D858350F"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "130C251F0230648E59C8623DC1BD51B72CE971B49F10A90A37ED3DF878F3A6A9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause",
+            "url": "https://opensource.org/licenses/BSD-3-Clause"
+          }
+        },
+        {
+          "license": {
+            "id": "BSD-3-Clause-HP",
+            "url": "https://github.com/zdohnal/hplip/blob/master/COPYING#L939"
+          }
+        }
+      ],
+      "copyright": "Copyright (c) 1998-2000 Nortel Networks Limited All rights reserved.\nCopyright (c) 1998-2000 Nortel Networks Limited\r\nAll rights reserved."
+    },
+    {
+      "type": "file",
+      "name": "fast.zip/lgpl/lgpl.c",
+      "mime-type": "text/plain",
+      "bom-ref": "213-258459",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "AA2182EAB43A2902F48ED865B5A9BB4CF11228B9"
+        },
+        {
+          "alg": "MD5",
+          "content": "7DC3C777FE9A514EDB9705A6523CE1E2"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "0C884214AB4A0C460C0BC073F342B89CBFB6E2BEB9D367F71ED6FF743C2F9A25"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "LGPL-2.1-only",
+            "url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fast.zip/gpl/gpl.c",
+      "mime-type": "text/plain",
+      "bom-ref": "213-258455",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "E5B663FD91AC3C138E26985DA634F2ADFAAD9A5C"
+        },
+        {
+          "alg": "MD5",
+          "content": "1F53A039272A0CF3688DDBDCD6E3E68C"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "1C0B54A3635B3394C5ACA7EC83BDDE448E64F35685BC7DCE6F224840B4FBAD2D"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only",
+            "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fast.zip/dual/dual.c",
+      "mime-type": "text/plain",
+      "bom-ref": "213-258457",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "889DDD6B10C6173B01E667B0CB1091929F568CD5"
+        },
+        {
+          "alg": "MD5",
+          "content": "494BB86E3B174FCAB4FD7DC02AF27757"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "568D8A3119D5A76781CC645998C1ECB5CA8FED05AC31E21E7A24C284B7E79B02"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0-only",
+            "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+          }
+        },
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fast.zip/bsd/bsd.c",
+      "mime-type": "text/plain",
+      "bom-ref": "213-258461",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "E1F65172CC2E9CBBE7BE2C4B353A180DD0FE1335"
+        },
+        {
+          "alg": "MD5",
+          "content": "7E9808C41ABF683F7D29D2CA81574181"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "9DB8D29767190DA1B575E176A7D9276DBB083F71CEF5628AAA08153416B25E18"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-1-Clause",
+            "url": "https://svnweb.freebsd.org/base/head/include/ifaddrs.h?revision=326823"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fast.zip/apache/apache.c",
+      "mime-type": "text/plain",
+      "bom-ref": "213-258453",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "82CFDA835764851A39F4AD84C16FBAE3AB8F1616"
+        },
+        {
+          "alg": "MD5",
+          "content": "1FA026ED60CDD964F716031A8700693A"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "ADB4C91538B7F4DAD7D4D41BA7D7F1B90B76D6E3CBEB0B973DB34F98316A5369"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "fast.zip/mit/mit.c",
+      "mime-type": "text/plain",
+      "bom-ref": "213-258451",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "44F4BAC61B62CCC2B82C397FA88C75781E764378"
+        },
+        {
+          "alg": "MD5",
+          "content": "50E14B1A0CC842E2D6EB780093598E71"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "D8B141F167E85DA772054AB4F4D3CD9B6777179F085FC457A86B587ADAF4E902"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ]
+    }
+  ]
+}
